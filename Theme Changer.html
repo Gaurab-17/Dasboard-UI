@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Theme Changer </title>
+
+  <link rel="stylesheet" href="themechanger(css).css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(119, 45%, 44%,); }
+  </style>
+</head>
+<body>
+  <div class="background-box"></div>
+  <div class="container">
+    <header class="header">
+      <div class="header__left">
+        <h1 class="header__title">Social Media Dashboard</h1>
+        <span class="header__subtext">Total Followers: 1k Approx</span>
+      </div>
+      <div class="header__right toggle">
+        <label for="dark_mode" title="Dark mode toggle" class="toggle__label">Dark Mode</label>
+        <div class="toggle__button-wrapper"> 
+          <input type="checkbox" name="dark_mode" class="toggle__checkbox" id="dark_mode">
+          <span class="toggle__button"></span>
+        </div> &nbsp; &nbsp; <h5> Light Mode</h5>
+      </div>
+    </header>
+
+    <section class="cards">
+      <div class="card card--blue">
+        <span class="social-media-tag">
+           <a href="https://www.facebook.com/gaurab.ghose.98/" target="_blank" class="footer__link no-barba"> 
+		   <img src="facebook.svg"></a>
+         &nbsp; Gaurab Ghose
+        </span>
+        <div class="followers">
+          <span class="followers__number">700</span>
+          <span class="followers__subtext">FRIENDS</span>
+        </div>
+        <span class="change">
+          &#9652; 12 Today
+        </span>
+      </div>
+		<div class="card card--dark_blue">
+        <span class="social-media-tag">
+           <a href="https://www.linkedin.com/in/gaurab-ghose-61586b19b/" target="_blank" class="footer__link no-barba"> 
+		   <img src="linkedin.png"></a>
+         &nbsp; Gaurab Ghose
+        </span>
+        <div class="followers">
+          <span class="followers__number">80</span>
+          <span class="followers__subtext">FRIENDS</span>
+        </div>
+        <span class="change">
+          &#9652; 12 Today
+        </span>
+      </div>
+      <div class="card card--blue">
+        <span class="social-media-tag">
+          <img src="twitter.svg">
+          &nbsp; Gaurab17 &nbsp; 
+        </span>
+        <div class="followers">
+          <span class="followers__number">100</span>
+          <span class="followers__subtext">FOLLOWERS</span>
+        </div>
+        <span class="change">
+          &#9652; 2 Today
+        </span>
+      </div>
+
+      <div class="card card--colorful">
+        <span class="social-media-tag">
+           <a href="https://www.instagram.com/atmanirbhar_ladhka/?hl=en" target="_blank" class="footer__link no-barba"><img src="instagram.svg"></a>
+         &nbsp; &nbsp;<small>athmanirbhar_ladhka</small>
+        </span>
+        <div class="followers">
+          <span class="followers__number">349</span>
+          <span class="followers__subtext">FOLLOWERS</span>
+        </div>
+        <span class="change">
+          &#9652; 3 Today
+        </span>
+      </div>
+
+      <div class="card card--red">
+        <span class="social-media-tag">
+          <a href="https://github.com/Gaurab-17" target="_blank" class="footer__link no-barba"><img src="github.png"></a>
+          &nbsp; sid17
+        </span>
+        <div class="followers">
+          <span class="followers__number">50</span>
+          <span class="followers__subtext">FOLLOWERS</span>
+        </div>
+        <span class="change change--negative">
+          &#9662; 144 Today
+        </span>
+      </div>
+    </section>
+
+    <section class="bottom-cards">
+      <h2 class="bottom-cards__title">
+        Overview - Today
+      </h2>
+
+      <div class="cards">
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              49
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img  src="facebook.svg">
+            </span>
+            <span class="change">
+              &#9662; 23 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              67
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img  src="facebook.svg">
+            </span>
+            <span class="change">
+              &#9662; 29 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              57
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img src="instagram.svg">
+            </span>
+            <span class="change">
+              &#9662; 4 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              87
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img src="instagram.svg">
+            </span>
+            <span class="change">
+              &#9662; 27 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              67
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img alt="twitter icon" class="social-media-tag__image" src="twitter.svg">
+            </span>
+            <span class="change">
+              &#9662; 14 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              27
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img src="twitter.svg">
+            </span>
+            <span class="change">
+              &#9662; 12 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              27
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img src="linkedin.png">
+            </span>
+            <span class="change">
+              &#9662; 5 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+
+        <div class="card card--columns">
+          <div class="card__column">
+            <span class="card__overview-type">
+              Page views
+            </span>
+            <span class="card__overview-value">
+              44
+            </span>
+          </div>
+          <div class="card__column">
+            <span class="card__overview-media">
+              <img src="github.png">
+            </span>
+            <span class="change">
+              &#9662; 19 Today
+            </span>
+          </div>
+        </div> <!-- card -->
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const toggleButton = document.getElementById('dark_mode');
+    const body = document.getElementsByTagName("body")[0];
+
+    toggleButton.addEventListener('click', () => {
+      body.classList.toggle('light');
+    });
+  </script>
+</body>
+</html>
